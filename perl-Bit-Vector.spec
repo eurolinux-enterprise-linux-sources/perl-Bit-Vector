@@ -1,6 +1,6 @@
 Name:           perl-Bit-Vector
 Version:        7.3
-Release:        1%{?dist}
+Release:        3%{?dist}
 Summary:        Efficient bit vector, set of integers and "big int" math library
 Group:          Development/Libraries
 # Outdated FSF address reported, rt#85827
@@ -65,6 +65,12 @@ make test
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 7.3-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 7.3-2
+- Mass rebuild 2013-12-27
+
 * Mon Jun 03 2013 Petr Šabata <contyk@redhat.com> - 7.3-1
 - 7.3 bump, 5.18 compatibility changes
 
